@@ -1,0 +1,76 @@
+html{
+    height: auto;
+    text-align: center;
+    background: linear-gradient(#5F5F5F, #242424);
+    background-repeat: no-repeat;
+    color: beige;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: beige;
+}
+
+header p{
+    list-style-type: none;
+    margin: 40px;
+    border: solid rgb(255, 255, 255) 5px;
+    border-radius: 1000px;
+    padding: 5px;
+}
+
+.none{
+    border: none;
+}
+
+header img{
+    height: 150px;
+    border-radius: 100px;
+}
+
+
+h1,h2{
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    color: beige;
+}
+
+.spacer{
+    margin: 50px;
+}
+
+#contacts{
+    display: flex;
+    justify-content: space-around;
+}
+
+.info a{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
+
+.Copyright {
+    color: #758398;
+    font-family: 'Karla', sans-serif;
+    font-size: small;
+}
+
+footer {
+    font-size: 23px;
+    margin: 5px
+}
+
+footer img{
+    margin: 5px;
+    padding: 10px;
+}
+
+.material-symbols-outlined{
+    margin: 5px;
+    padding: 10px;
+}
