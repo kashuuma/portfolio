@@ -1,0 +1,56 @@
+/* Centre le titre h1 */
+h1 {
+  text-align: center;
+}
+
+/* Place les éléments à l'intérieur de la balise main de haut en bas, centrés horizontalement */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style commun pour les champs de saisie (input) et le bouton "Tester mon mot de passe" */
+input, button {
+  border-radius: 12px; /*Arondie les bors de l'écran*/  
+  padding: 15px 0px; /*ecarte les bords des limites du cnetre de l'element*/
+  text-align: center; /*centre le texte*/
+  font-size: 16px; /*agrandie le texte*/
+  width: 750px; /* Largeur des elements */
+  border: 0px; /*pas de contoures*/
+}
+
+/* Style spécifique pour les champs de saisie (input) */
+input {
+  color: #8b8a83; /* Couleur du texte pour les champs de saisie */
+}
+
+/* Style spécifique pour les boutons */
+button {
+  background-color: #3486c9; /* Couleur de fond bleue pour les boutons */
+  color: white; /* Couleur du texte blanc pour les boutons */
+}
+
+/* Style pour les éléments em (italique) */
+em {
+  color: #918d80; /* Couleur du texte italique */
+  font-style: normal; /* Style de police normal et pas italique comme il y a de base */
+}
+
+/* Alignement du texte à gauche pour les paragraphes */
+p {
+  text-align: start;/*Alignement du texte vers la gauche ca sert pour "Les mots de passe doivent faire au moin 8 caractères sur internet ( en général )"*/
+}
+
+/* Style spécifique pour l'élément avec l'ID "test" */
+#button_color {
+  padding: 0 10%; /* rend le button crée plus petit */
+}
+
+.fin {
+  text-align: center;
+}
+
+#chargement_ok{
+  display: none;
+}
