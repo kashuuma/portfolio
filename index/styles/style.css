@@ -58,14 +58,14 @@ header a{
   margin: 0px;
 }
 
-.discover p{
+.decouvrez-moi p{
   font-size: 3vh;
   color: black;
   margin: 0px;
   padding: 1vh 2vh;
 }
 
-.discover{
+.decouvrez-moi{
   margin: 10% 0% 10% 5%;
   background-color: #e0fe9c;
   padding: 1% 2% 1% 2%;
@@ -76,27 +76,30 @@ header a{
   font-family: 'Oswald', sans-serif;
 }
 
-.page_two{
+main{
   background-color: black;
   color: wheat;
   height: 100vh;
   display: flex;
   flex-direction: column;
 }
-.page_two div{
+main section{
   display: flex;
   justify-content: space-around;
-  flex-direction: column-reverse;
+  flex-direction: column;
 }
-.page_two h2{
+main h2{
   text-align: left;
   font-family: 'Oswald', sans-serif;
   font-size: 9vh;
   margin-left: 5vh;
 }
-.page_two p{
+main p{
   text-align: start;
   font-size: 3vh;
+}
+main a{
+  color: wheat;
 }
 table{
   height: 30vh;
@@ -113,21 +116,18 @@ th {
   color: black;
 }
 
+#pas-affiche{
+  display: none;
+}
 
 
 
-
-
-
-
-
-
-.page_three{
+nav{
   height: 110vh;
   background-color: #ffffff;
   
 }
-.page_three h2{
+nav h2{
   text-align: left;
   font-family: 'Oswald', sans-serif;
   font-size: 10vh;
@@ -157,21 +157,18 @@ th {
   border-radius: 3vh;
   padding: 1vh;
 }
-.amphi:hover{
-  width: 70vh;
+#formations:hover, #interventions:hover{
+  background-color: black;
+  color: white;
 }
 
-.formations:hover{
-  width: 70vh;
-}
-
-.page_four{
+footer{
   height: 100vh;
   background-color: black;
   color: white;
 }
 
-.page_four h2{
+footer h2{
   text-align: left;
   font-family: 'Oswald', sans-serif;
   font-size: 10vh;
@@ -179,11 +176,11 @@ th {
   color: white;
 }
 
-.page_four .rdv{
+footer .rdv{
   color: black;
 }
 
-.page_four li{
+footer li{
   text-align: left;
   padding-left: 15vh;
 }
@@ -200,20 +197,14 @@ ul{
   padding-top: 10vh;
 }
 
-.page_four a{
+footer a{
   text-decoration: none;
   color: white;
 }
 
-.page_four img {
-  height: 5vh;
-}
 
 table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
 }
-
-
-
