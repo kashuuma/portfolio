@@ -101,19 +101,16 @@ main p{
 main a{
   color: wheat;
 }
-table{
-  height: 30vh;
+main img{
+  width: 75vh;
+  margin: 5vh;
+  border-radius: 5vh;
 }
 
-th, td {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-
-th {
-  background-color: #f2f2f2;
-  color: black;
+.metier{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 #pas-affiche{
@@ -207,4 +204,14 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
+}
+
+.lien{
+  display: flex;
+  justify-content: space-around;
+}
+
+.lien a {
+  text-decoration: none;
+  color: black;
 }

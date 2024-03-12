@@ -101,6 +101,15 @@ main p{
 main a{
   color: wheat;
 }
+
+.logo-svp{
+  width: 10vh;
+}
+.svp{
+  text-align: center;
+  align-items: center;
+  padding: 1vh;
+}
 table{
   height: 30vh;
 }
@@ -207,4 +216,14 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
+}
+
+.lien{
+  display: flex;
+  justify-content: space-around;
+}
+
+.lien a {
+  text-decoration: none;
+  color: black;
 }
