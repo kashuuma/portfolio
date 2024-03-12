@@ -13,5 +13,5 @@ Ce projet vise à créer un portfolio en ligne pour présenter mes compétences,
 
 ---
 
-**Note :** Ce README.md peut être mis à jour au fur et à mesure que le projet évolue.
+**Note :** Ce README.md peut être mis à jour au fur et à mesure que le projet évolue et en cas de besoin mon contact Discord : .kashuu.
 
