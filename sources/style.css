@@ -1,0 +1,344 @@
+  /*font size header p*/
+ /*font size main h2 */
+/*font size main p  */
+
+@media screen {
+  @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+  * {
+    scroll-behavior: smooth;
+  }
+  
+
+  h1,p, ul, h2, li, a {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  html, body {
+    height: 100%;
+    background-color: #FAF2E9;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  header{
+    padding: 0px;
+    margin: 0px;
+    background:  no-repeat;
+    background-image: url("../images/Cahier.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+  header h1 {
+    color: rgb(245, 179, 179);
+    text-align: start;
+  }
+
+  main{
+    background-color: black;
+    color: wheat;
+    min-height: 100vh;
+    height: auto;
+  }
+  header p {
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    text-align: justify;
+  }
+
+  header a{
+    color: black;
+    text-decoration: none;
+  }
+
+  main h2{
+    font-family: 'Oswald', sans-serif;
+  }
+  main h4{
+    text-align: justify;
+  }
+
+  main li{
+    font-size: 1vw;
+  }
+
+  nav h2{
+    font-family: 'Oswald', sans-serif;
+  }
+
+  footer{
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  footer h2{
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+  }
+  footer .rdv{
+    color: black;
+  }
+
+  footer a{
+    text-decoration: none;
+    color: white;
+  }
+}
+
+@media screen and (min-width: 610px) {
+  header h1 {
+    font-size: 5vw;
+  }
+
+  header p {
+    margin: 0% 40% 10% 5%;
+    padding: 0px;
+    padding-top: 10%;
+    font-size: 2.5vw;
+  }
+
+  header a{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  main{
+    display: flex;
+    flex-direction: column;
+  }
+
+  main section{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  main h2{
+    text-align: left;
+    font-size: 5vw;
+    margin: 5vh   5vw;
+  }
+  main h3{
+    text-align: left;
+    font-size: 2.5vw;
+    margin: 5vh   5vw;
+  }
+
+  main p{
+    text-align: start;
+    font-size: 1.5vw;
+  }
+
+  main a{
+    color: wheat;
+  }
+
+  main img{
+    width: 50vw;
+    height: auto;
+  }
+
+  li p{
+    font-size: 1vw;
+  }
+
+  ul {
+    list-style: outside;
+    padding: 10px;
+  }
+
+
+
+
+
+
+  nav{
+    height: 110vh;
+  }
+  nav h2{
+    text-align: left;
+    font-size: 10vh;
+    margin-left: 5vh;
+  }
+
+  .actions{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .actions img{
+    width: 15vw;
+    border-radius: 10%;
+    margin: 10vh 5vw;
+  }
+
+  .actions h3{
+    text-align: center;
+  }
+
+  .actions a{
+    color: black;
+    text-decoration: none;
+    font-size: 3vw;
+  }
+
+  footer{
+    height: 100vh;
+  }
+
+
+  footer h2{
+    text-align: left;
+    font-size: 10vh;
+    margin-left: 5vh;
+  }
+
+  footer li{
+    text-align: left;
+    padding-left: 15vh;
+    display: flex;
+    margin: 5vh;
+    font-size: 5vh;
+  }
+
+  footer ul{
+    padding-top: 10vh;
+  }
+  footer p{
+    font-size: 2vw;
+  }
+  footer img{
+    height: auto;
+    width: 2vw;
+  }
+}
+
+@media screen and (max-width: 609px) {
+  header h1 {
+    font-size: 10vw;
+    margin-left: 5vw;
+  }
+
+  header p {
+    margin: 30vh 5% 0px 5%;
+    padding: 1vh 5vw;
+    font-size: 5vw;
+    background-color: wheat;
+    color: #0a214c;
+    border-radius: 2vh;
+  }
+
+
+  .decouvrez-moi p{
+    font-size: 3vw;
+    padding: 1vw 2vw;
+  }
+  .decouvrez-moi{
+    display: none;  
+  }
+
+  main{
+    display: flex;
+    flex-direction: column;
+  }
+
+  main section{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  main h2{
+    display: none;
+  }
+  main h3{
+    font-size: 4vh;
+    padding-left: 10vw;
+  }
+  main p, main li{
+    text-align: start;
+    font-size: 2vh;
+    padding-left: 10vw;
+  }
+  main li{
+    margin: 2.5vh 0%;
+  }
+  main ul{
+    list-style: none;
+  }
+  main a{
+    color: wheat;
+  }
+  main img{
+    width: 100vw;
+    height: auto;
+  }
+  main p{
+    margin: 1vh;
+  }
+
+  nav{
+    min-height: 100vh;
+    height: auto;
+  }
+  nav h2{
+    text-align: center;
+    font-size: 10vw;
+    margin-top: 5vh;
+  }
+
+  .actions{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 90vh;
+  }
+
+  .actions img{
+    height: 15vh;
+    width: auto;
+    border-radius: 10%;
+    margin: 5%;
+  }
+
+  .actions h3{
+    text-align: center;
+  }
+
+  .actions a{
+    color: black;
+    text-decoration: none;
+  }
+
+
+
+  footer h2{
+    font-size: 7vh;
+  }
+
+
+  footer li{
+    font-size: 5vh;
+  }
+
+  footer ul{
+    padding: 15vh 0vh;
+    list-style: none;
+  }
+  footer p{
+    font-size: 2vh;
+  }
+  footer em{
+    font-size: 3vh;
+  }
+
+  footer img{
+    height: 2vh;
+  }
+}
