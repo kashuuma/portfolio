@@ -10,7 +10,7 @@ Ce projet vise à créer un portfolio en ligne pour présenter mes compétences,
 ## Technologies Utilisées
 - HTML, CSS pour la structure et le style.
 - JavaScript pour des fonctionnalités interactives si nécessaire.
-
+- Python pour le backend du projet d'exemple
 ---
 
 **Note :** Ce README.md peut être mis à jour au fur et à mesure que le projet évolue et en cas de besoin mon contact Discord : .kashuu.

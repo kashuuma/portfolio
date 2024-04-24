@@ -8,7 +8,7 @@
   * {
     scroll-behavior: smooth;
   }
-
+  
 
   h1,p, ul, h2, li, a {
     text-align: center;
@@ -32,16 +32,20 @@
     height: 100%;
     width: 100%;
   }
-
+  header h1 {
+    color: #afff99;
+    text-align: start;
+  }
 
   main{
     background-color: black;
     color: wheat;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
   }
   header p {
     font-family: 'Oswald', sans-serif;
-    -webkit-text-stroke: 0.01vw black;
+    -webkit-text-stroke: 0.05vw black;
     color: #ffffff;
     text-align: justify;
   }
@@ -49,7 +53,6 @@
   header a{
     color: black;
     text-decoration: none;
-    margin: 0px;
   }
 
   .decouvrez-moi p{
@@ -65,9 +68,12 @@
   main h2{
     font-family: 'Oswald', sans-serif;
   }
+  main h4{
+    text-align: justify;
+  }
 
-  nav{
-    background-color: #ffffff;
+  main li{
+    font-size: 1vw;
   }
 
   nav h2{
@@ -77,6 +83,10 @@
   footer{
     background-color: black;
     color: white;
+    height: 100vh;
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-around;
   }
 
   footer h2{
@@ -121,10 +131,14 @@
   .decouvrez-moi{
     padding: 1% 2% 1% 2%;
     align-items: center;
-    width: 25vw;
+    width: 30vw;
     display: flex;
     justify-content: space-around;
+    margin: 10%;
   }
+
+
+
 
   main{
     display: flex;
@@ -143,12 +157,39 @@
 
   main p{
     text-align: start;
-    font-size: 2vw;
+    font-size: 1.5vw;
   }
 
   main a{
     color: wheat;
   }
+  main h3{
+    font-size: 3vw;
+    margin: 0px;
+  }
+  main h4{
+    font-size: 1.5vw;
+    margin: 0px;
+  }
+
+  main li{
+    text-align: justify;
+    padding: 1vh;
+  }
+
+  li p{
+    font-size: 1vw;
+  }
+
+  ul {
+    list-style: outside;
+    padding: 10px;
+  }
+
+
+
+
+
 
   nav{
     height: 110vh;
@@ -177,7 +218,6 @@
   #formations, #interventions {
     color: black;
     text-decoration: none;
-    border: solid black 10%;
     border-radius: 3%;
   }
 
@@ -194,32 +234,29 @@
   footer li{
     text-align: left;
     padding-left: 15vh;
-  }
-
-
-  li{
     display: flex;
     margin: 5vh;
     font-size: 5vh;
   }
 
-  ul{
+  footer ul{
     padding-top: 10vh;
   }
 }
 
 @media screen and (max-width: 609px) {
   header h1 {
-    color: #afff99;
-    text-align: start;
     font-size: 10vw;
+    margin-left: 5vw;
   }
 
   header p {
-    margin: 0% 5% 10% 5%;
-    padding: 0px;
-    padding-top: 10%;
+    margin: 30vh 5% 0px 5%;
+    padding: 1vh 5vw;
     font-size: 5vw;
+    background-color: wheat;
+    color: #0a214c;
+    border-radius: 2vh;
   }
 
 
@@ -227,19 +264,14 @@
     font-size: 3vw;
     padding: 1vw 2vw;
   }
-
   .decouvrez-moi{
-    padding: 1% 2% 1% 2%;
-    align-items: center;
-    width: 25vw;
-    display: flex;
-    justify-content: space-around;
-    font-display: flex;
+    display: none;  
   }
 
   main{
     display: flex;
     flex-direction: column;
+    padding: 5vh 5vw;
   }
   main section{
     display: flex;
@@ -247,18 +279,26 @@
     flex-direction: column;
   }
   main h2{
-    text-align: left;
-    font-size: 5vw;
-    margin-left: 5vw;
+    display: none;
   }
+  main h3{
+    font-size: 4vh;
 
-  main p{
+  }
+  main p, main li{
     text-align: start;
-    font-size: 2vw;
+    font-size: 2vh;
+    padding-left: 10vw;
   }
-
+  main li{
+    margin: 2.5vh 0%;
+  }
+  main ul{
+    list-style: none;
+  }
   main a{
     color: wheat;
+    margin: 0% 10%;
   }
 
   nav{
@@ -266,19 +306,22 @@
   }
   nav h2{
     text-align: left;
-    font-size: 10vh;
+    font-size: 10vw;
     margin-left: 5vh;
+    margin-top: 10vh;
   }
 
   .actions{
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
+    height: 90vh;
   }
 
   .actions img{
-    width: 30vw;
+    width: 50vw;
     border-radius: 10%;
-    margin: 10%;
+    margin: 5%;
   }
 
   .actions h3{
@@ -288,33 +331,24 @@
   #formations, #interventions {
     color: black;
     text-decoration: none;
-    border: solid black 10%;
     border-radius: 3%;
   }
 
-  footer{
-    height: 100vh;
+  footer h2{
+    font-size: 7vh;
   }
 
-  footer h2{
-    text-align: left;
-    font-size: 10vh;
-    margin-left: 5vh;
-  }
 
   footer li{
-    text-align: left;
-    padding-left: 15vh;
-  }
-
-
-  li{
-    display: flex;
-    margin: 5vh;
     font-size: 5vh;
   }
 
-  ul{
-    padding-top: 10vh;
+  footer ul{
+    padding: 15vh 0vh;
+    list-style: none;
+  }
+
+  footer em{
+    font-size: 3vh;
   }
 }
